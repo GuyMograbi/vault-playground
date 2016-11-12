@@ -1,0 +1,7 @@
+{
+  "name" : "vault-playground",
+  "version" : "0.0.0",
+  "scripts" : {
+    "setup-docker" : "docker run -d  -p 8200:8200  --hostname vault  --name vault sjourdan/vault"
+  }
+}
